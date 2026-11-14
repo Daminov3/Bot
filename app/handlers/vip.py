@@ -85,7 +85,6 @@ async def vip_buy(callback: types.CallbackQuery, state: FSMContext):
 
     text += (
         "💎 <b>VIP foydalanish</b>\n\n"
-        f"⏱ Muddat: {VIP_HOURS} soat (1 sutka)\n"
         "♾ Kinolar cheklovsiz\n"
         f"💰 Narxi: <b>{_price_text()} so'm</b>\n\n"
         f"💳 Karta raqami:\n<code>{CARD_NUMBER}</code>\n\n"
