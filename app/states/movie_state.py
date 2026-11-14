@@ -8,3 +8,12 @@ class MovieState(StatesGroup):
 
     # Backup import
     waiting_backup = State()
+
+    # Maxfiy kanal qo'shish
+    waiting_private_forward = State()
+    waiting_private_link = State()
+
+
+class VipState(StatesGroup):
+    # VIP to'lov chekini kutish
+    waiting_check = State()
